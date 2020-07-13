@@ -1,0 +1,816 @@
+# create triples from
+# C:\git\GIAED\query.csv
+# on 2020-07-13 22:17
+# by python script
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX findspot: <http://143.93.114.104/rest/samian/findspots/>
+
+findspot:Aachen geosparql:hasGeometry findspot:Aachen_geom .
+findspot:Aachen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Aachen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.105278 50.770833)"^^geosparql:wktLiteral.
+
+findspot:Aardenburg geosparql:hasGeometry findspot:Aardenburg_geom .
+findspot:Aardenburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Aardenburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.450000048 51.28333282)"^^geosparql:wktLiteral.
+
+findspot:Aislingen geosparql:hasGeometry findspot:Aislingen_geom .
+findspot:Aislingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Aislingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.44999981 48.5)"^^geosparql:wktLiteral.
+
+findspot:Altenstadt geosparql:hasGeometry findspot:Altenstadt_geom .
+findspot:Altenstadt_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Altenstadt_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.941192 50.285161)"^^geosparql:wktLiteral.
+
+findspot:Aspiran geosparql:hasGeometry findspot:Aspiran_geom .
+findspot:Aspiran_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Aspiran_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.433333 43.566667)"^^geosparql:wktLiteral.
+
+findspot:Aulnay geosparql:hasGeometry findspot:Aulnay_geom .
+findspot:Aulnay_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Aulnay_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.349999994 46.01666641)"^^geosparql:wktLiteral.
+
+findspot:Aulnay__fortress geosparql:hasGeometry findspot:Aulnay__fortress_geom .
+findspot:Aulnay__fortress_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Aulnay__fortress_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.349999994 46.01666641)"^^geosparql:wktLiteral.
+
+findspot:Avocourt geosparql:hasGeometry findspot:Avocourt_geom .
+findspot:Avocourt_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Avocourt_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.15 49.2)"^^geosparql:wktLiteral.
+
+findspot:Baden geosparql:hasGeometry findspot:Baden_geom .
+findspot:Baden_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Baden_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.3 47.466667)"^^geosparql:wktLiteral.
+
+findspot:Baden-Baden geosparql:hasGeometry findspot:Baden-Baden_geom .
+findspot:Baden-Baden_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Baden-Baden_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.25 48.75)"^^geosparql:wktLiteral.
+
+findspot:Bainbridge geosparql:hasGeometry findspot:Bainbridge_geom .
+findspot:Bainbridge_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bainbridge_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.099999905 54.29999924)"^^geosparql:wktLiteral.
+
+findspot:Baldock geosparql:hasGeometry findspot:Baldock_geom .
+findspot:Baldock_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Baldock_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.183333293 51.98332977)"^^geosparql:wktLiteral.
+
+findspot:Banassac geosparql:hasGeometry findspot:Banassac_geom .
+findspot:Banassac_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Banassac_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.2 44.433333)"^^geosparql:wktLiteral.
+
+findspot:Bendorf geosparql:hasGeometry findspot:Bendorf_geom .
+findspot:Bendorf_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bendorf_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.566667 50.433333)"^^geosparql:wktLiteral.
+
+findspot:Benwell geosparql:hasGeometry findspot:Benwell_geom .
+findspot:Benwell_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Benwell_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.660947204 54.97546387)"^^geosparql:wktLiteral.
+
+findspot:Bern geosparql:hasGeometry findspot:Bern_geom .
+findspot:Bern_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bern_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.466667 46.916667)"^^geosparql:wktLiteral.
+
+findspot:Bickenbach geosparql:hasGeometry findspot:Bickenbach_geom .
+findspot:Bickenbach_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bickenbach_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.533333 50.116667)"^^geosparql:wktLiteral.
+
+findspot:Birrens geosparql:hasGeometry findspot:Birrens_geom .
+findspot:Birrens_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Birrens_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.222800016 55.06359863)"^^geosparql:wktLiteral.
+
+findspot:Blickweiler geosparql:hasGeometry findspot:Blickweiler_geom .
+findspot:Blickweiler_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Blickweiler_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.25 49.216667)"^^geosparql:wktLiteral.
+
+findspot:Bliesbruck geosparql:hasGeometry findspot:Bliesbruck_geom .
+findspot:Bliesbruck_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bliesbruck_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.183333 49.116667)"^^geosparql:wktLiteral.
+
+findspot:Bocheporn geosparql:hasGeometry findspot:Bocheporn_geom .
+findspot:Bocheporn_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bocheporn_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.6 49.15)"^^geosparql:wktLiteral.
+
+findspot:Bram geosparql:hasGeometry findspot:Bram_geom .
+findspot:Bram_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Bram_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (2.116667 43.25)"^^geosparql:wktLiteral.
+
+findspot:Brigetio geosparql:hasGeometry findspot:Brigetio_geom .
+findspot:Brigetio_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Brigetio_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.16666603 47.73333359)"^^geosparql:wktLiteral.
+
+findspot:Broomholm geosparql:hasGeometry findspot:Broomholm_geom .
+findspot:Broomholm_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Broomholm_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.987909555 55.11931992)"^^geosparql:wktLiteral.
+
+findspot:Budapest geosparql:hasGeometry findspot:Budapest_geom .
+findspot:Budapest_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Budapest_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.08333397 47.5)"^^geosparql:wktLiteral.
+
+findspot:Budapest__Aquincum_Hoard geosparql:hasGeometry findspot:Budapest__Aquincum_Hoard_geom .
+findspot:Budapest__Aquincum_Hoard_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Budapest__Aquincum_Hoard_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (19.08333397 47.5)"^^geosparql:wktLiteral.
+
+findspot:Burghoefe geosparql:hasGeometry findspot:Burghoefe_geom .
+findspot:Burghoefe_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Burghoefe_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.84333038 48.65999985)"^^geosparql:wktLiteral.
+
+findspot:Burghoefe__Geschirrdepot geosparql:hasGeometry findspot:Burghoefe__Geschirrdepot_geom .
+findspot:Burghoefe__Geschirrdepot_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Burghoefe__Geschirrdepot_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.84333038 48.65999985)"^^geosparql:wktLiteral.
+
+findspot:Burgstall geosparql:hasGeometry findspot:Burgstall_geom .
+findspot:Burgstall_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Burgstall_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.9425094 48.744369)"^^geosparql:wktLiteral.
+
+findspot:Burladingen geosparql:hasGeometry findspot:Burladingen_geom .
+findspot:Burladingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Burladingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.116666794 48.28333282)"^^geosparql:wktLiteral.
+
+findspot:Butzbach geosparql:hasGeometry findspot:Butzbach_geom .
+findspot:Butzbach_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Butzbach_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.665183 50.439681)"^^geosparql:wktLiteral.
+
+findspot:Butzbach__Degerfeld geosparql:hasGeometry findspot:Butzbach__Degerfeld_geom .
+findspot:Butzbach__Degerfeld_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Butzbach__Degerfeld_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.665183 50.439681)"^^geosparql:wktLiteral.
+
+findspot:Caerhun geosparql:hasGeometry findspot:Caerhun_geom .
+findspot:Caerhun_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Caerhun_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.833333254 53.21666718)"^^geosparql:wktLiteral.
+
+findspot:Caerleon geosparql:hasGeometry findspot:Caerleon_geom .
+findspot:Caerleon_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Caerleon_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.950000048 51.61666107)"^^geosparql:wktLiteral.
+
+findspot:Caersws geosparql:hasGeometry findspot:Caersws_geom .
+findspot:Caersws_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Caersws_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.444389105 52.51670074)"^^geosparql:wktLiteral.
+
+findspot:Caerwent geosparql:hasGeometry findspot:Caerwent_geom .
+findspot:Caerwent_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Caerwent_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.766666889 51.61666107)"^^geosparql:wktLiteral.
+
+findspot:Caistor-by-Norwich geosparql:hasGeometry findspot:Caistor-by-Norwich_geom .
+findspot:Caistor-by-Norwich_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Caistor-by-Norwich_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.291995287 52.58224106)"^^geosparql:wktLiteral.
+
+findspot:Cala_Culip geosparql:hasGeometry findspot:Cala_Culip_geom .
+findspot:Cala_Culip_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cala_Culip_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.316666603 42.31666565)"^^geosparql:wktLiteral.
+
+findspot:Cala_Culip__IV geosparql:hasGeometry findspot:Cala_Culip__IV_geom .
+findspot:Cala_Culip__IV_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cala_Culip__IV_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.316666603 42.31666565)"^^geosparql:wktLiteral.
+
+findspot:Camelon geosparql:hasGeometry findspot:Camelon_geom .
+findspot:Camelon_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Camelon_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.823740005 56.00821304)"^^geosparql:wktLiteral.
+
+findspot:Camulodunum geosparql:hasGeometry findspot:Camulodunum_geom .
+findspot:Camulodunum_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Camulodunum_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.899999976 51.88333511)"^^geosparql:wktLiteral.
+
+findspot:Cannstatt geosparql:hasGeometry findspot:Cannstatt_geom .
+findspot:Cannstatt_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cannstatt_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.2141 48.8056)"^^geosparql:wktLiteral.
+
+findspot:Canterbury geosparql:hasGeometry findspot:Canterbury_geom .
+findspot:Canterbury_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Canterbury_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.083333015 51.26667023)"^^geosparql:wktLiteral.
+
+findspot:Cardiff geosparql:hasGeometry findspot:Cardiff_geom .
+findspot:Cardiff_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cardiff_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.183333397 51.48333359)"^^geosparql:wktLiteral.
+
+findspot:Carlisle geosparql:hasGeometry findspot:Carlisle_geom .
+findspot:Carlisle_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Carlisle_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.93333292 54.88333893)"^^geosparql:wktLiteral.
+
+findspot:Carmarthen geosparql:hasGeometry findspot:Carmarthen_geom .
+findspot:Carmarthen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Carmarthen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.311666489 51.85916519)"^^geosparql:wktLiteral.
+
+findspot:Carrade geosparql:hasGeometry findspot:Carrade_geom .
+findspot:Carrade_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Carrade_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.666667 44.46667)"^^geosparql:wktLiteral.
+
+findspot:Carrawburgh geosparql:hasGeometry findspot:Carrawburgh_geom .
+findspot:Carrawburgh_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Carrawburgh_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.222198009 55.03505325)"^^geosparql:wktLiteral.
+
+findspot:Castell_Collen geosparql:hasGeometry findspot:Castell_Collen_geom .
+findspot:Castell_Collen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Castell_Collen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.391672611 52.24757767)"^^geosparql:wktLiteral.
+
+findspot:Castleford geosparql:hasGeometry findspot:Castleford_geom .
+findspot:Castleford_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Castleford_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.350000024 53.71667099)"^^geosparql:wktLiteral.
+
+findspot:Castleford__Pottery_Shop geosparql:hasGeometry findspot:Castleford__Pottery_Shop_geom .
+findspot:Castleford__Pottery_Shop_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Castleford__Pottery_Shop_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.350000024 53.71667099)"^^geosparql:wktLiteral.
+
+findspot:Catterick geosparql:hasGeometry findspot:Catterick_geom .
+findspot:Catterick_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Catterick_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.661204815 54.38587189)"^^geosparql:wktLiteral.
+
+findspot:Chemery-Faulquemont geosparql:hasGeometry findspot:Chemery-Faulquemont_geom .
+findspot:Chemery-Faulquemont_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Chemery-Faulquemont_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.50833 49.15)"^^geosparql:wktLiteral.
+
+findspot:Chester geosparql:hasGeometry findspot:Chester_geom .
+findspot:Chester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Chester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.916666985 53.20000076)"^^geosparql:wktLiteral.
+
+findspot:Chesterholm-Vindolanda geosparql:hasGeometry findspot:Chesterholm-Vindolanda_geom .
+findspot:Chesterholm-Vindolanda_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Chesterholm-Vindolanda_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.3595047 54.99158859)"^^geosparql:wktLiteral.
+
+findspot:Chesters geosparql:hasGeometry findspot:Chesters_geom .
+findspot:Chesters_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Chesters_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.150000095 55.01666641)"^^geosparql:wktLiteral.
+
+findspot:Chichester geosparql:hasGeometry findspot:Chichester_geom .
+findspot:Chichester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Chichester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.783333302 50.83332825)"^^geosparql:wktLiteral.
+
+findspot:Cirencester geosparql:hasGeometry findspot:Cirencester_geom .
+findspot:Cirencester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cirencester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.983332992 51.73332977)"^^geosparql:wktLiteral.
+
+findspot:Cirencester__fort_ditch geosparql:hasGeometry findspot:Cirencester__fort_ditch_geom .
+findspot:Cirencester__fort_ditch_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cirencester__fort_ditch_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.983332992 51.73332977)"^^geosparql:wktLiteral.
+
+findspot:Colchester geosparql:hasGeometry findspot:Colchester_geom .
+findspot:Colchester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Colchester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.9 51.883333)"^^geosparql:wktLiteral.
+
+findspot:Colchester__Boudiccan_burning geosparql:hasGeometry findspot:Colchester__Boudiccan_burning_geom .
+findspot:Colchester__Boudiccan_burning_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Colchester__Boudiccan_burning_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.899999976 51.88333893)"^^geosparql:wktLiteral.
+
+findspot:Colchester__Pottery_Shop_I geosparql:hasGeometry findspot:Colchester__Pottery_Shop_I_geom .
+findspot:Colchester__Pottery_Shop_I_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Colchester__Pottery_Shop_I_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.899999976 51.88333893)"^^geosparql:wktLiteral.
+
+findspot:Colchester__Pottery_Shop_II geosparql:hasGeometry findspot:Colchester__Pottery_Shop_II_geom .
+findspot:Colchester__Pottery_Shop_II_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Colchester__Pottery_Shop_II_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.899999976 51.88333893)"^^geosparql:wktLiteral.
+
+findspot:Colchester__Sheepen geosparql:hasGeometry findspot:Colchester__Sheepen_geom .
+findspot:Colchester__Sheepen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Colchester__Sheepen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.899999976 51.88333893)"^^geosparql:wktLiteral.
+
+findspot:Corbridge geosparql:hasGeometry findspot:Corbridge_geom .
+findspot:Corbridge_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Corbridge_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.016666889 54.96667099)"^^geosparql:wktLiteral.
+
+findspot:Cournon geosparql:hasGeometry findspot:Cournon_geom .
+findspot:Cournon_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Cournon_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.216667 45.75)"^^geosparql:wktLiteral.
+
+findspot:Crambade geosparql:hasGeometry findspot:Crambade_geom .
+findspot:Crambade_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Crambade_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.9 43.865)"^^geosparql:wktLiteral.
+
+findspot:Echzell geosparql:hasGeometry findspot:Echzell_geom .
+findspot:Echzell_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Echzell_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.883176 50.393087)"^^geosparql:wktLiteral.
+
+findspot:Eincheville geosparql:hasGeometry findspot:Eincheville_geom .
+findspot:Eincheville_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Eincheville_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.6 48.983333)"^^geosparql:wktLiteral.
+
+findspot:Elginhaugh geosparql:hasGeometry findspot:Elginhaugh_geom .
+findspot:Elginhaugh_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Elginhaugh_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.080559731 55.89313126)"^^geosparql:wktLiteral.
+
+findspot:Epfach geosparql:hasGeometry findspot:Epfach_geom .
+findspot:Epfach_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Epfach_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.91666985 47.91667175)"^^geosparql:wktLiteral.
+
+findspot:Epfach__Lorenzberg geosparql:hasGeometry findspot:Epfach__Lorenzberg_geom .
+findspot:Epfach__Lorenzberg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Epfach__Lorenzberg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.91666985 47.91667175)"^^geosparql:wktLiteral.
+
+findspot:Eschweilerhof geosparql:hasGeometry findspot:Eschweilerhof_geom .
+findspot:Eschweilerhof_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Eschweilerhof_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.2 49.3)"^^geosparql:wktLiteral.
+
+findspot:Espalion geosparql:hasGeometry findspot:Espalion_geom .
+findspot:Espalion_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Espalion_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (2.766667 44.516667)"^^geosparql:wktLiteral.
+
+findspot:Friedberg geosparql:hasGeometry findspot:Friedberg_geom .
+findspot:Friedberg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Friedberg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.753502 50.341669)"^^geosparql:wktLiteral.
+
+findspot:Geislingen geosparql:hasGeometry findspot:Geislingen_geom .
+findspot:Geislingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Geislingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.816666603 48.28333282)"^^geosparql:wktLiteral.
+
+findspot:Gloucester geosparql:hasGeometry findspot:Gloucester_geom .
+findspot:Gloucester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Gloucester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.25 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Gloucester__Kingsholm geosparql:hasGeometry findspot:Gloucester__Kingsholm_geom .
+findspot:Gloucester__Kingsholm_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Gloucester__Kingsholm_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.25 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Great_Chesters geosparql:hasGeometry findspot:Great_Chesters_geom .
+findspot:Great_Chesters_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Great_Chesters_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.462698936 54.99393463)"^^geosparql:wktLiteral.
+
+findspot:Guenzburg geosparql:hasGeometry findspot:Guenzburg_geom .
+findspot:Guenzburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Guenzburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.26667023 48.45000076)"^^geosparql:wktLiteral.
+
+findspot:Gueugnon geosparql:hasGeometry findspot:Gueugnon_geom .
+findspot:Gueugnon_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Gueugnon_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.066667 46.6)"^^geosparql:wktLiteral.
+
+findspot:Haute-Yutz geosparql:hasGeometry findspot:Haute-Yutz_geom .
+findspot:Haute-Yutz_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Haute-Yutz_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.2 49.35)"^^geosparql:wktLiteral.
+
+findspot:Heddernheim geosparql:hasGeometry findspot:Heddernheim_geom .
+findspot:Heddernheim_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heddernheim_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.649999619 50.16667175)"^^geosparql:wktLiteral.
+
+findspot:Heddernheim__Erweiterungslager geosparql:hasGeometry findspot:Heddernheim__Erweiterungslager_geom .
+findspot:Heddernheim__Erweiterungslager_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heddernheim__Erweiterungslager_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.649999619 50.16667175)"^^geosparql:wktLiteral.
+
+findspot:Heddernheim__Steinkastell geosparql:hasGeometry findspot:Heddernheim__Steinkastell_geom .
+findspot:Heddernheim__Steinkastell_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heddernheim__Steinkastell_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.649999619 50.16667175)"^^geosparql:wktLiteral.
+
+findspot:Heddernheim__fort geosparql:hasGeometry findspot:Heddernheim__fort_geom .
+findspot:Heddernheim__fort_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heddernheim__fort_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.649999619 50.16667175)"^^geosparql:wktLiteral.
+
+findspot:Heidelberg geosparql:hasGeometry findspot:Heidelberg_geom .
+findspot:Heidelberg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heidelberg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.699999809 49.41667175)"^^geosparql:wktLiteral.
+
+findspot:Heiligenberg geosparql:hasGeometry findspot:Heiligenberg_geom .
+findspot:Heiligenberg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heiligenberg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.4 48.533333)"^^geosparql:wktLiteral.
+
+findspot:Heldenbergen geosparql:hasGeometry findspot:Heldenbergen_geom .
+findspot:Heldenbergen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Heldenbergen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.866666794 50.23333359)"^^geosparql:wktLiteral.
+
+findspot:Hofheim geosparql:hasGeometry findspot:Hofheim_geom .
+findspot:Hofheim_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Hofheim_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.449999809 50.08333206)"^^geosparql:wktLiteral.
+
+findspot:Hofheim__I geosparql:hasGeometry findspot:Hofheim__I_geom .
+findspot:Hofheim__I_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Hofheim__I_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.449999809 50.08333206)"^^geosparql:wktLiteral.
+
+findspot:Hofheim__II geosparql:hasGeometry findspot:Hofheim__II_geom .
+findspot:Hofheim__II_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Hofheim__II_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.449999809 50.08333206)"^^geosparql:wktLiteral.
+
+findspot:Hofheim__vicus geosparql:hasGeometry findspot:Hofheim__vicus_geom .
+findspot:Hofheim__vicus_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Hofheim__vicus_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.449999809 50.08333206)"^^geosparql:wktLiteral.
+
+findspot:Holt geosparql:hasGeometry findspot:Holt_geom .
+findspot:Holt_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Holt_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.25 52.25)"^^geosparql:wktLiteral.
+
+findspot:Horbourg geosparql:hasGeometry findspot:Horbourg_geom .
+findspot:Horbourg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Horbourg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.383333 48.083333)"^^geosparql:wktLiteral.
+
+findspot:Huefingen geosparql:hasGeometry findspot:Huefingen_geom .
+findspot:Huefingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Huefingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.483333588 47.91667175)"^^geosparql:wktLiteral.
+
+findspot:Inchtuthil geosparql:hasGeometry findspot:Inchtuthil_geom .
+findspot:Inchtuthil_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Inchtuthil_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.422952414 56.5413475)"^^geosparql:wktLiteral.
+
+findspot:Ittenwiller geosparql:hasGeometry findspot:Ittenwiller_geom .
+findspot:Ittenwiller_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Ittenwiller_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.466667 48.383333)"^^geosparql:wktLiteral.
+
+findspot:Jaulges-Villiers-Vineux geosparql:hasGeometry findspot:Jaulges-Villiers-Vineux_geom .
+findspot:Jaulges-Villiers-Vineux_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Jaulges-Villiers-Vineux_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.783333 47.966667)"^^geosparql:wktLiteral.
+
+findspot:Jonquieres_Saint-Saturnin geosparql:hasGeometry findspot:Jonquieres_Saint-Saturnin_geom .
+findspot:Jonquieres_Saint-Saturnin_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Jonquieres_Saint-Saturnin_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.466667 43.683333)"^^geosparql:wktLiteral.
+
+findspot:Koengen geosparql:hasGeometry findspot:Koengen_geom .
+findspot:Koengen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Koengen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.366666794 48.68333054)"^^geosparql:wktLiteral.
+
+findspot:Koesching geosparql:hasGeometry findspot:Koesching_geom .
+findspot:Koesching_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Koesching_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.5 48.81666565)"^^geosparql:wktLiteral.
+
+findspot:Kraeherwald geosparql:hasGeometry findspot:Kraeherwald_geom .
+findspot:Kraeherwald_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Kraeherwald_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.183333 48.766667)"^^geosparql:wktLiteral.
+
+findspot:Kuenzing geosparql:hasGeometry findspot:Kuenzing_geom .
+findspot:Kuenzing_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Kuenzing_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (13.08333015 48.66667175)"^^geosparql:wktLiteral.
+
+findspot:La_Graufesenque geosparql:hasGeometry findspot:La_Graufesenque_geom .
+findspot:La_Graufesenque_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:La_Graufesenque_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.083333 44.0)"^^geosparql:wktLiteral.
+
+findspot:La_Graufesenque__Fosse_Cirratus geosparql:hasGeometry findspot:La_Graufesenque__Fosse_Cirratus_geom .
+findspot:La_Graufesenque__Fosse_Cirratus_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:La_Graufesenque__Fosse_Cirratus_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.083333015 44.09999847)"^^geosparql:wktLiteral.
+
+findspot:La_Graufesenque__Fosse_Malaval geosparql:hasGeometry findspot:La_Graufesenque__Fosse_Malaval_geom .
+findspot:La_Graufesenque__Fosse_Malaval_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:La_Graufesenque__Fosse_Malaval_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.083333015 44.09999847)"^^geosparql:wktLiteral.
+
+findspot:La_Madeleine geosparql:hasGeometry findspot:La_Madeleine_geom .
+findspot:La_Madeleine_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:La_Madeleine_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.25 48.65)"^^geosparql:wktLiteral.
+
+findspot:Ladenburg geosparql:hasGeometry findspot:Ladenburg_geom .
+findspot:Ladenburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Ladenburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.606944084 49.47499847)"^^geosparql:wktLiteral.
+
+findspot:Langenhain geosparql:hasGeometry findspot:Langenhain_geom .
+findspot:Langenhain_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Langenhain_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.644794 50.365103)"^^geosparql:wktLiteral.
+
+findspot:Langenhain__store geosparql:hasGeometry findspot:Langenhain__store_geom .
+findspot:Langenhain__store_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Langenhain__store_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.644794 50.365103)"^^geosparql:wktLiteral.
+
+findspot:Lavoye geosparql:hasGeometry findspot:Lavoye_geom .
+findspot:Lavoye_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Lavoye_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.13333 49.0333)"^^geosparql:wktLiteral.
+
+findspot:Le_Pont_des_Remes geosparql:hasGeometry findspot:Le_Pont_des_Remes_geom .
+findspot:Le_Pont_des_Remes_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Le_Pont_des_Remes_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.95 49.1333)"^^geosparql:wktLiteral.
+
+findspot:Le_Rozier geosparql:hasGeometry findspot:Le_Rozier_geom .
+findspot:Le_Rozier_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Le_Rozier_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.216667 44.18333)"^^geosparql:wktLiteral.
+
+findspot:Lehen geosparql:hasGeometry findspot:Lehen_geom .
+findspot:Lehen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Lehen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.8 48.016667)"^^geosparql:wktLiteral.
+
+findspot:Les_Allieux geosparql:hasGeometry findspot:Les_Allieux_geom .
+findspot:Les_Allieux_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Les_Allieux_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.06667 49.2)"^^geosparql:wktLiteral.
+
+findspot:Lezoux geosparql:hasGeometry findspot:Lezoux_geom .
+findspot:Lezoux_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Lezoux_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.383333 45.833333)"^^geosparql:wktLiteral.
+
+findspot:Lincoln geosparql:hasGeometry findspot:Lincoln_geom .
+findspot:Lincoln_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Lincoln_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.533333302 53.23333359)"^^geosparql:wktLiteral.
+
+findspot:Little_Chester geosparql:hasGeometry findspot:Little_Chester_geom .
+findspot:Little_Chester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Little_Chester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.471779108 52.93341446)"^^geosparql:wktLiteral.
+
+findspot:London geosparql:hasGeometry findspot:London_geom .
+findspot:London_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:London_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.116667 51.5)"^^geosparql:wktLiteral.
+
+findspot:Longthorpe geosparql:hasGeometry findspot:Longthorpe_geom .
+findspot:Longthorpe_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Longthorpe_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.291401565 52.56443405)"^^geosparql:wktLiteral.
+
+findspot:Longthorpe__fortress geosparql:hasGeometry findspot:Longthorpe__fortress_geom .
+findspot:Longthorpe__fortress_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Longthorpe__fortress_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.291401565 52.56443405)"^^geosparql:wktLiteral.
+
+findspot:Lubie geosparql:hasGeometry findspot:Lubie_geom .
+findspot:Lubie_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Lubie_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.633333 46.25)"^^geosparql:wktLiteral.
+
+findspot:Luxeuil-les-Bains geosparql:hasGeometry findspot:Luxeuil-les-Bains_geom .
+findspot:Luxeuil-les-Bains_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Luxeuil-les-Bains_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.383333 47.816667)"^^geosparql:wktLiteral.
+
+findspot:Martres-de-Veyre geosparql:hasGeometry findspot:Martres-de-Veyre_geom .
+findspot:Martres-de-Veyre_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Martres-de-Veyre_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.2 45.683333)"^^geosparql:wktLiteral.
+
+findspot:Melandra geosparql:hasGeometry findspot:Melandra_geom .
+findspot:Melandra_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Melandra_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.986288428 53.4519577)"^^geosparql:wktLiteral.
+
+findspot:Mittelbronn geosparql:hasGeometry findspot:Mittelbronn_geom .
+findspot:Mittelbronn_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Mittelbronn_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.216667 48.766667)"^^geosparql:wktLiteral.
+
+findspot:Montans geosparql:hasGeometry findspot:Montans_geom .
+findspot:Montans_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Montans_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.9 43.866667)"^^geosparql:wktLiteral.
+
+findspot:Mougon geosparql:hasGeometry findspot:Mougon_geom .
+findspot:Mougon_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Mougon_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.466667 47.27)"^^geosparql:wktLiteral.
+
+findspot:Munningen geosparql:hasGeometry findspot:Munningen_geom .
+findspot:Munningen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Munningen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.60000038 48.91666794)"^^geosparql:wktLiteral.
+
+findspot:Narbonne geosparql:hasGeometry findspot:Narbonne_geom .
+findspot:Narbonne_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Narbonne_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.0 43.183333)"^^geosparql:wktLiteral.
+
+findspot:Nether_Denton geosparql:hasGeometry findspot:Nether_Denton_geom .
+findspot:Nether_Denton_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nether_Denton_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.640561104 54.97245789)"^^geosparql:wktLiteral.
+
+findspot:Newcastle geosparql:hasGeometry findspot:Newcastle_geom .
+findspot:Newcastle_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Newcastle_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.61944437 54.98805618)"^^geosparql:wktLiteral.
+
+findspot:Newstead geosparql:hasGeometry findspot:Newstead_geom .
+findspot:Newstead_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Newstead_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.216666698 53.06666565)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen geosparql:hasGeometry findspot:Nijmegen_geom .
+findspot:Nijmegen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__Kops_Plateau geosparql:hasGeometry findspot:Nijmegen__Kops_Plateau_geom .
+findspot:Nijmegen__Kops_Plateau_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__Kops_Plateau_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__VN geosparql:hasGeometry findspot:Nijmegen__VN_geom .
+findspot:Nijmegen__VN_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__VN_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__VN_cemetery geosparql:hasGeometry findspot:Nijmegen__VN_cemetery_geom .
+findspot:Nijmegen__VN_cemetery_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__VN_cemetery_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__VN_cemetery_Hees_2 geosparql:hasGeometry findspot:Nijmegen__VN_cemetery_Hees_2_geom .
+findspot:Nijmegen__VN_cemetery_Hees_2_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__VN_cemetery_Hees_2_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__canabae geosparql:hasGeometry findspot:Nijmegen__canabae_geom .
+findspot:Nijmegen__canabae_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__canabae_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__cemetery geosparql:hasGeometry findspot:Nijmegen__cemetery_geom .
+findspot:Nijmegen__cemetery_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__cemetery_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Nijmegen__fortress geosparql:hasGeometry findspot:Nijmegen__fortress_geom .
+findspot:Nijmegen__fortress_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nijmegen__fortress_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.866666794 51.83332825)"^^geosparql:wktLiteral.
+
+findspot:Northwich geosparql:hasGeometry findspot:Northwich_geom .
+findspot:Northwich_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Northwich_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.5 53.26667023)"^^geosparql:wktLiteral.
+
+findspot:Nouatre geosparql:hasGeometry findspot:Nouatre_geom .
+findspot:Nouatre_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nouatre_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (0.55 47.05)"^^geosparql:wktLiteral.
+
+findspot:Nuertingen geosparql:hasGeometry findspot:Nuertingen_geom .
+findspot:Nuertingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Nuertingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.35 48.633333)"^^geosparql:wktLiteral.
+
+findspot:Oberflorstadt geosparql:hasGeometry findspot:Oberflorstadt_geom .
+findspot:Oberflorstadt_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Oberflorstadt_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.866666794 50.33333206)"^^geosparql:wktLiteral.
+
+findspot:Oehringen geosparql:hasGeometry findspot:Oehringen_geom .
+findspot:Oehringen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Oehringen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.503899574 49.2016983)"^^geosparql:wktLiteral.
+
+findspot:Oehringen__Rendelkastell geosparql:hasGeometry findspot:Oehringen__Rendelkastell_geom .
+findspot:Oehringen__Rendelkastell_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Oehringen__Rendelkastell_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.503899574 49.2016983)"^^geosparql:wktLiteral.
+
+findspot:Oehringen__Westkastell geosparql:hasGeometry findspot:Oehringen__Westkastell_geom .
+findspot:Oehringen__Westkastell_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Oehringen__Westkastell_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.503899574 49.2016983)"^^geosparql:wktLiteral.
+
+findspot:Offemont geosparql:hasGeometry findspot:Offemont_geom .
+findspot:Offemont_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Offemont_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.883333 47.666667)"^^geosparql:wktLiteral.
+
+findspot:Okarben geosparql:hasGeometry findspot:Okarben_geom .
+findspot:Okarben_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Okarben_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.75 50.25)"^^geosparql:wktLiteral.
+
+findspot:Old_Penrith geosparql:hasGeometry findspot:Old_Penrith_geom .
+findspot:Old_Penrith_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Old_Penrith_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.792124271 54.73427963)"^^geosparql:wktLiteral.
+
+findspot:Osijek geosparql:hasGeometry findspot:Osijek_geom .
+findspot:Osijek_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Osijek_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (18.69388962 45.55110931)"^^geosparql:wktLiteral.
+
+findspot:Pen_Llystyn geosparql:hasGeometry findspot:Pen_Llystyn_geom .
+findspot:Pen_Llystyn_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Pen_Llystyn_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-4.2697 52.9837)"^^geosparql:wktLiteral.
+
+findspot:Penydarren geosparql:hasGeometry findspot:Penydarren_geom .
+findspot:Penydarren_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Penydarren_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.3705 51.7581)"^^geosparql:wktLiteral.
+
+findspot:Pfaffenhofen geosparql:hasGeometry findspot:Pfaffenhofen_geom .
+findspot:Pfaffenhofen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Pfaffenhofen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.133333 47.9)"^^geosparql:wktLiteral.
+
+findspot:Pfoerring geosparql:hasGeometry findspot:Pfoerring_geom .
+findspot:Pfoerring_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Pfoerring_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.682227 48.818523)"^^geosparql:wktLiteral.
+
+findspot:Pfuenz geosparql:hasGeometry findspot:Pfuenz_geom .
+findspot:Pfuenz_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Pfuenz_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (11.263661 48.883931)"^^geosparql:wktLiteral.
+
+findspot:Pulborough geosparql:hasGeometry findspot:Pulborough_geom .
+findspot:Pulborough_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Pulborough_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-0.516667 50.95)"^^geosparql:wktLiteral.
+
+findspot:Regensburg geosparql:hasGeometry findspot:Regensburg_geom .
+findspot:Regensburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Regensburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.09556007 49.01499939)"^^geosparql:wktLiteral.
+
+findspot:Regensburg__Grosspruefening geosparql:hasGeometry findspot:Regensburg__Grosspruefening_geom .
+findspot:Regensburg__Grosspruefening_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Regensburg__Grosspruefening_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.09556007 49.01499939)"^^geosparql:wktLiteral.
+
+findspot:Regensburg__Kumpfmuehl geosparql:hasGeometry findspot:Regensburg__Kumpfmuehl_geom .
+findspot:Regensburg__Kumpfmuehl_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Regensburg__Kumpfmuehl_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.09556007 49.01499939)"^^geosparql:wktLiteral.
+
+findspot:Rheingoenheim geosparql:hasGeometry findspot:Rheingoenheim_geom .
+findspot:Rheingoenheim_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Rheingoenheim_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.421111107 49.44443893)"^^geosparql:wktLiteral.
+
+findspot:Rheinzabern geosparql:hasGeometry findspot:Rheinzabern_geom .
+findspot:Rheinzabern_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Rheinzabern_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.278056 49.118056)"^^geosparql:wktLiteral.
+
+findspot:Ribchester geosparql:hasGeometry findspot:Ribchester_geom .
+findspot:Ribchester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Ribchester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.533333063 53.79999924)"^^geosparql:wktLiteral.
+
+findspot:Richborough geosparql:hasGeometry findspot:Richborough_geom .
+findspot:Richborough_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Richborough_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.333333015 51.28332901)"^^geosparql:wktLiteral.
+
+findspot:Riemst geosparql:hasGeometry findspot:Riemst_geom .
+findspot:Riemst_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Riemst_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.599999905 50.79999924)"^^geosparql:wktLiteral.
+
+findspot:Riemst__Tumulus geosparql:hasGeometry findspot:Riemst__Tumulus_geom .
+findspot:Riemst__Tumulus_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Riemst__Tumulus_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.599999905 50.79999924)"^^geosparql:wktLiteral.
+
+findspot:Risstissen geosparql:hasGeometry findspot:Risstissen_geom .
+findspot:Risstissen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Risstissen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.833333015 48.26667023)"^^geosparql:wktLiteral.
+
+findspot:Rottenburg geosparql:hasGeometry findspot:Rottenburg_geom .
+findspot:Rottenburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Rottenburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.933333397 48.46666718)"^^geosparql:wktLiteral.
+
+findspot:Rottweil geosparql:hasGeometry findspot:Rottweil_geom .
+findspot:Rottweil_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Rottweil_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.616666794 48.16667175)"^^geosparql:wktLiteral.
+
+findspot:Rueckingen geosparql:hasGeometry findspot:Rueckingen_geom .
+findspot:Rueckingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Rueckingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.981344 50.154728)"^^geosparql:wktLiteral.
+
+findspot:Saalburg geosparql:hasGeometry findspot:Saalburg_geom .
+findspot:Saalburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Saalburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.566659 50.271522)"^^geosparql:wktLiteral.
+
+findspot:Saint-Sauveur geosparql:hasGeometry findspot:Saint-Sauveur_geom .
+findspot:Saint-Sauveur_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Saint-Sauveur_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.916667 43.9)"^^geosparql:wktLiteral.
+
+findspot:Schwabegg geosparql:hasGeometry findspot:Schwabegg_geom .
+findspot:Schwabegg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Schwabegg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (10.683333 48.183333)"^^geosparql:wktLiteral.
+
+findspot:Silchester geosparql:hasGeometry findspot:Silchester_geom .
+findspot:Silchester_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Silchester_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.066666961 51.34999847)"^^geosparql:wktLiteral.
+
+findspot:Sinzig geosparql:hasGeometry findspot:Sinzig_geom .
+findspot:Sinzig_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Sinzig_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (7.25 50.55)"^^geosparql:wktLiteral.
+
+findspot:South_Shields geosparql:hasGeometry findspot:South_Shields_geom .
+findspot:South_Shields_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:South_Shields_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-1.421388865 54.98777771)"^^geosparql:wktLiteral.
+
+findspot:Stanwix geosparql:hasGeometry findspot:Stanwix_geom .
+findspot:Stanwix_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Stanwix_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.93333292 54.90000153)"^^geosparql:wktLiteral.
+
+findspot:Stockstadt geosparql:hasGeometry findspot:Stockstadt_geom .
+findspot:Stockstadt_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Stockstadt_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.064167023 49.97694397)"^^geosparql:wktLiteral.
+
+findspot:Strageath geosparql:hasGeometry findspot:Strageath_geom .
+findspot:Strageath_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Strageath_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-3.782971621 56.34159851)"^^geosparql:wktLiteral.
+
+findspot:Straubing geosparql:hasGeometry findspot:Straubing_geom .
+findspot:Straubing_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Straubing_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.56667042 48.81666946)"^^geosparql:wktLiteral.
+
+findspot:Toulon-sur-Allier geosparql:hasGeometry findspot:Toulon-sur-Allier_geom .
+findspot:Toulon-sur-Allier_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Toulon-sur-Allier_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.366667 46.516667)"^^geosparql:wktLiteral.
+
+findspot:Trier geosparql:hasGeometry findspot:Trier_geom .
+findspot:Trier_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Trier_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (6.633333 49.75)"^^geosparql:wktLiteral.
+
+findspot:Unterboebingen geosparql:hasGeometry findspot:Unterboebingen_geom .
+findspot:Unterboebingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Unterboebingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.916667 48.816667)"^^geosparql:wktLiteral.
+
+findspot:Utrecht geosparql:hasGeometry findspot:Utrecht_geom .
+findspot:Utrecht_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Utrecht_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (5.133333206 52.08332825)"^^geosparql:wktLiteral.
+
+findspot:Valery geosparql:hasGeometry findspot:Valery_geom .
+findspot:Valery_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Valery_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (1.966667 43.783333)"^^geosparql:wktLiteral.
+
+findspot:Valkenburg geosparql:hasGeometry findspot:Valkenburg_geom .
+findspot:Valkenburg_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Valkenburg_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.43333292 52.18333054)"^^geosparql:wktLiteral.
+
+findspot:Velsen geosparql:hasGeometry findspot:Velsen_geom .
+findspot:Velsen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Velsen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.633333206 52.46667099)"^^geosparql:wktLiteral.
+
+findspot:Vichy_Terre_Franche geosparql:hasGeometry findspot:Vichy_Terre_Franche_geom .
+findspot:Vichy_Terre_Franche_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Vichy_Terre_Franche_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (3.4 46.116667)"^^geosparql:wktLiteral.
+
+findspot:Waiblingen geosparql:hasGeometry findspot:Waiblingen_geom .
+findspot:Waiblingen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Waiblingen_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.3 48.833333)"^^geosparql:wktLiteral.
+
+findspot:Walheim geosparql:hasGeometry findspot:Walheim_geom .
+findspot:Walheim_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Walheim_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (9.151110649 49.01416779)"^^geosparql:wktLiteral.
+
+findspot:Walltown geosparql:hasGeometry findspot:Walltown_geom .
+findspot:Walltown_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Walltown_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.516099215 54.98814392)"^^geosparql:wktLiteral.
+
+findspot:Watercrook geosparql:hasGeometry findspot:Watercrook_geom .
+findspot:Watercrook_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Watercrook_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.748589516 54.30942535)"^^geosparql:wktLiteral.
+
+findspot:Westerndorf geosparql:hasGeometry findspot:Westerndorf_geom .
+findspot:Westerndorf_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Westerndorf_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (12.116667 47.883333)"^^geosparql:wktLiteral.
+
+findspot:Wiesbaden geosparql:hasGeometry findspot:Wiesbaden_geom .
+findspot:Wiesbaden_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Wiesbaden_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.25 50.08332825)"^^geosparql:wktLiteral.
+
+findspot:Wiesbaden__Moorschicht geosparql:hasGeometry findspot:Wiesbaden__Moorschicht_geom .
+findspot:Wiesbaden__Moorschicht_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Wiesbaden__Moorschicht_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.25 50.08332825)"^^geosparql:wktLiteral.
+
+findspot:Wilderspool geosparql:hasGeometry findspot:Wilderspool_geom .
+findspot:Wilderspool_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Wilderspool_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (-2.586209297 53.3691597)"^^geosparql:wktLiteral.
+
+findspot:Woerden geosparql:hasGeometry findspot:Woerden_geom .
+findspot:Woerden_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Woerden_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (4.916666985 52.08332825)"^^geosparql:wktLiteral.
+
+findspot:Zurzach geosparql:hasGeometry findspot:Zurzach_geom .
+findspot:Zurzach_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Zurzach_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.180000305 47.34999847)"^^geosparql:wktLiteral.
+
+findspot:Zurzach__fort geosparql:hasGeometry findspot:Zurzach__fort_geom .
+findspot:Zurzach__fort_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
+findspot:Zurzach__fort_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.180000305 47.34999847)"^^geosparql:wktLiteral.
+
