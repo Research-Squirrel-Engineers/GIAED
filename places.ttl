@@ -3,12 +3,12 @@
 # on 2020-07-13 22:17
 # by python script
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX owl: <http://www.w3.org/2002/07/owl#> 
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
-PREFIX findspot: <http://143.93.114.104/rest/samian/findspots/>
+PREFIX findspot: <http://lod.squirrel.link/data/ppp/findspot/> .
 
 findspot:Aachen geosparql:hasGeometry findspot:Aachen_geom .
 findspot:Aachen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
@@ -813,4 +813,3 @@ findspot:Zurzach_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/43
 findspot:Zurzach__fort geosparql:hasGeometry findspot:Zurzach__fort_geom .
 findspot:Zurzach__fort_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
 findspot:Zurzach__fort_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT (8.180000305 47.34999847)"^^geosparql:wktLiteral.
-
