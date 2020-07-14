@@ -8,7 +8,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
-PREFIX findspot: <http://lod.squirrel.link/data/ppp/findspot/> .
+PREFIX findspot: <http://lod.squirrel.link/data/ppp/findspot/>
 
 findspot:Aachen geosparql:hasGeometry findspot:Aachen_geom .
 findspot:Aachen_geom rdf:type <http://www.opengis.net/ont/sf#the_geom> .
